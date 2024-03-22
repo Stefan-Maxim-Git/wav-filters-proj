@@ -1,0 +1,1 @@
+-force-include-file "Interfata.c";"c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c" 

@@ -1,0 +1,135 @@
+[getStdDev]
+Class="Function"
+Prototype="double getStdDev(double *data);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:55:8"
+
+[getIntervalData]
+Class="Function"
+Prototype="double *getIntervalData(double *waveData, int left, int right);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:65:9"
+
+[updIntervalDisplay]
+Class="Function"
+Prototype="void updIntervalDisplay(int panel);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:81:6"
+
+[getFilteredData]
+Class="Function"
+Prototype="double *getFilteredData(double *waveData, int filterType);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:86:9"
+
+[UpdateHistogram]
+Class="Function"
+Prototype="void UpdateHistogram(double *data, int dataType);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:122:6"
+
+[showInterval]
+Class="Function"
+Prototype="int showInterval(int left, int right);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:150:5"
+
+[main]
+Class="Function"
+Prototype="int main(int argc, char *argv[]);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:207:5"
+
+[OnLoadButton]
+Class="Function"
+Prototype="int OnLoadButton(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:230:17"
+
+[OnPanel]
+Class="Function"
+Prototype="int OnPanel(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:252:17"
+
+[UpdateGraph]
+Class="Function"
+Prototype="int UpdateGraph(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:270:17"
+
+[nextInt]
+Class="Function"
+Prototype="int nextInt(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:283:17"
+
+[prevInt]
+Class="Function"
+Prototype="int prevInt(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:301:17"
+
+[getFilterType]
+Class="Function"
+Prototype="int getFilterType(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:319:17"
+
+[getAlphaValue]
+Class="Function"
+Prototype="int getAlphaValue(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:333:17"
+
+[getElemForMedian]
+Class="Function"
+Prototype="int getElemForMedian(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:345:17"
+
+[showHist]
+Class="Function"
+Prototype="int showHist(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:357:17"
+
+[closeHistPanel]
+Class="Function"
+Prototype="int closeHistPanel(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:380:17"
+
+[getInfo]
+Class="Function"
+Prototype="int getInfo(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:393:17"
+
+[saveData]
+Class="Function"
+Prototype="int saveData(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:459:17"
+
+[displayFullData]
+Class="Function"
+Prototype="int displayFullData(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:471:17"
+
+[showEnvelope]
+Class="Function"
+Prototype="int showEnvelope(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:484:17"
+
+[SwitchToFreq]
+Class="Function"
+Prototype="int SwitchToFreq(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:498:17"
+
+[OnFreqPanelCB]
+Class="Function"
+Prototype="int OnFreqPanelCB(int panel, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:518:17"
+
+[getParamsFreq]
+Class="Function"
+Prototype="void getParamsFreq();"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:571:6"
+
+[downsample]
+Class="Function"
+Prototype="double *downsample(double *data, int factor, int *newSize);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:576:9"
+
+[getNpoints]
+Class="Function"
+Prototype="int getNpoints(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:590:17"
+
+[updateSpecters]
+Class="Function"
+Prototype="int updateSpecters(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+SourceLocation="c:\Users\maxst\Documents\Proiect APD 2023\proiectAPD\Interfata.c:602:17"
+

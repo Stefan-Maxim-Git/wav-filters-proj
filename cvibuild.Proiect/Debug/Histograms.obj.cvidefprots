@@ -1,0 +1,5 @@
+[WinMain]
+Class="Function"
+Prototype="int WinMain(struct HINSTANCE__ *hInstance, struct HINSTANCE__ *hPrevInstance, char *lpszCmdLine, int nCmdShow);"
+SourceLocation="d:\1309A\Proiect APD\proiectAPD\Histograms.c:7:15"
+
